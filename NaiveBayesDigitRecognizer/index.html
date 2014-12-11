@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta name="description" content="This page is my personal space on W3.">
+ <meta charset="utf-8">
+ <title> Omid Saremi's Personal Space </title>
+ <link rel="stylesheet" href="style.css">
+<head>
+<body>
+<!--Page Container-->
+<div id="container">
+   <!--Header-->
+   <header>
+     <!--My name-->
+     <div id="name"> Omid Saremi, PhD </div>   
+     <img src="OmidBoston.JPG" width="200" height="290" align="right"> 
+   </header>
+   <!--Main Content-->
+   <div id="maincontent">
+     <ul>
+       <br> </br> 
+       <li>Ph.D., Theoretical High Energy Physics, University of Toronto, M.Sc. (Physics), B.Sc. (Electrical Engineering) </li>
+       <li>Currently Research Associate at UBC Physics and Astronomy department.</li>
+       <li>Previously, Post Doctoral Fellow/research assistant at UC Berkeley Physics department. For more information, please refer to my CV. </li>
+       <li> Here are two sample videos of the invited talks I have delivered in the past, one at the international conference <a href="http://streamer.perimeterinstitute.ca/Flash/1e57becb-78eb-4cd5-898f-ade0a7cc3ffa/viewer.html">Emergence and Entanglement</a> and also at the <a href="http://streamer.perimeterinstitute.ca/Flash/76f012a6-4531-4173-ac3c-1ce8b7bda8a8/viewer.html">Perimeter Institute</a>. </li>     
+      </ul>
+        
+   <h4> Statistical Data Analysis/Learning Algorithms </h4>
+   <p>My recent research involved theoretical study of impure/disordered material using high energy physics tool the so called "holography", where I performed extensive statistical data analysis; material are impure in "random" ways, but often the underlying distribution function is known or there are good guesses. 
+   In particular, I had to employ clustering learning algorithm for data compression among other things (basic inferential data analysis, in particular hypothesis testing).</p>
+   <h4>Programming/scripting Languages</h4>
+    I often code in Java, C or Python. For data analysis, I mostly use <b>R</b> or <a href="http://www.maplesoft.com"> Maple</a>.
+   <h4>Courses</h4>
+    <ul>  
+      <li> Completed "Machine Learning" by Andrew Ng on <a href="https://www.Coursera.org"> Coursera</a>. Here is my <a href="http://www.omidsaremi.org/machine_learning_certificate.pdf"> certificate</a> (statement of accomplishment).  </li>
+      <li> Completed "Computing for Data Analysis" by Roger Peng on Coursera. It included an introduction to <b>R</b> as well. Find my <a href="http://www.omidsaremi.org/computing_data_analysis_certificate.pdf">certificate</a> here. </li> 
+      <li> Completed "An Introduction to Hadoop and MapReduce" at <a href="https://www.udacity.com/course/ud617">Udacity</a>. Here is the <a href="http://omidsaremi.org/Hadoop_certificate.pdf"> verified certificate</a>. A short description of the project appears below.</li>
+      <li> Completed "Social Network Analysis" by Lada Adamic at U of Michigan on Coursera. Here is the <a href="https://www.coursera.org/records/GamsETzbXamct6tW">certificate</a>
+    </ul>
+   <h4> Knowledge projects:</h4>
+    </p> Inspired by my research needs and the Machine Learning course, I developed the following Java application and deployed them successfully:<p>   
+   <ol> 
+    <li> A Java application which implements K-means unsupervised learning algorithm, 
+    in the context of an image color quantizer. The Java linear algebra library <a href="https://code.google.com/p/efficient-java-matrix-library/">EJML</a> (Efficient Java Matrix Library) was used.
+    The code does not use any of the pre-existing Machine Learning libraries such as <a href="http://scikit-learn.org/stable/">scikit-learn</a>. The application comes with a simple Java Swing GUI (Graphical User interface). 
+    The final product was successfully deployed two forms:</li>     
+      <ul>
+       <li> <a href="http://www.oracle.com/technetwork/java/javase/tech/index-jsp-136112.html"> Java Web Start Technology<a>. Launch my application from <a href="launch_page.html"> this page<a>. For troubleshooting see instructions <a href="trouble_shooting.html">here<a>.  </li>
+       <li> Using <a href="https://java.net/projects/appbundler"><b>appbundler utility</b></a>, I packaged the jars into a native Mac application which can be launched from end user's machine.</li>
+       <li> Documentation can be found <a href="documentation_KMCQ.html">here</a>. </li>   
+       <li> Find the source codes on <a href="https://github.com/OmidSaremi/KMeansImageColorQuantizer"> GitHub</a>. </li>
+     </ul>
+    <li> Description of the final project of the Hadoop/MapReduce course: The data set was an anonymized sample taken from "Udacity forum". Our task was to write 
+    scripts in Python (mappers and reducers) to get insight into the forum posts. There were multiple goals: 
+      <ul> 
+        <li>To write mappper/reducer scripts to find if there is correlation between the length of the forum "questions" and their corresponding "answer(s)".</li>
+        <li>Every entry of the forum had a "tagnames" filed (a collection of tags). Write mapper/reducer scripts to find the top-10 popular tags.</li>
+        <li> Write MapReduce code to find the most active hour (on the forum) of each student in the forum. If there are more than one active hour, output them all.</li>
+         <li> Here you can find <a href="http://omidsaremi.org/PythonScripts">MapReduce scripts</a> I wrote in <b>Python</b> for the final project (successfully passed).  
+      </ul>
+    <li>As a knowledge project in Data analysis/Machine Learning, I have implemented (in Python) a simple Naive Bayes classifier, which recognizes handwritten digits. The source codes and data/data description can be found <a href="http://omidsaremi.org/NaiveBayes">here</a>.  
+    <li> The training/test <a href="http://archive.ics.uci.edu/ml/datasets/Semeion+Handwritten+Digit">data set</a> was taken from <a href="http://archive.ics.uci.edu/ml/"> UC Irvine Machine Learning repository</a>. </li>
+    <br>  </br>
+   </ol>
+ </div>   
+   <!--Footer-->
+   <footer>
+      <div id="legal"> <b>Copyright &copy 2014, Omid Saremi </b></div>
+   </footer>
+
+</div>
+</body>
+</html> 
